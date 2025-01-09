@@ -2,5 +2,5 @@
 
 What is the largest prime factor of the number 600851475143?"""
 
-from utilidades import prime_factors
+from utils import prime_factors
 print(prime_factors(600_851_475_143)[-1])

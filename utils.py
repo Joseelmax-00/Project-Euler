@@ -7,8 +7,8 @@
         
 ### Modules definition:
 
-def iter_fibonacci(max):
-    """This function is a generator for the fibonacci sequence"""
+def iter_fibonacci(max=float("INF")):
+    """This function returns a generator for the fibonacci sequence with f(1)=1 and f(2)=2"""
     a=1
     b=2
     while a<=max:
@@ -67,7 +67,7 @@ def is_prime(num):
     return not found
 
 def divisors(num):
-    """This function returns a list with the divisors of num"""
+    """This function returns a list with the divisors of num (including itself)"""
     max = int(num**0.5)
     res = num
     div = 1

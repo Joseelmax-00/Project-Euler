@@ -12,7 +12,7 @@ Which starting number, under one million, produces the longest chain?
 
 NOTE: Once the chain starts the terms are allowed to go above one million."""
 
-from utilidades import collatz
+from utils import collatz
 
 
 maxlen = 1

@@ -2,7 +2,7 @@
 
 Find the sum of all the primes below two million."""
 
-from utilidades import is_prime
+from utils import is_prime
 sum=2
 for i in range(3,2_000_000, 2):
     if is_prime(i):
